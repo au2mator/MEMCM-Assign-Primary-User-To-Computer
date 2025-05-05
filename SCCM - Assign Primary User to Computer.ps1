@@ -11,7 +11,7 @@
 # Last Update: 06.04.2021
 # Code Template V 1.3
 #
-# URL: https://au2mator.com/new-microsoft-teams-team-–-microsoft-teams-self-service-with-au2mator/?utm_source=github&utm_medium=social&utm_campaign=M365_NewTeamsTeam&utm_content=PS1
+# URL: https://au2mator.com/new-microsoft-teams-team-ï¿½-microsoft-teams-self-service-with-au2mator/?utm_source=github&utm_medium=social&utm_campaign=M365_NewTeamsTeam&utm_content=PS1
 # Github: https://github.com/au2mator/TEAMS-New-Teams-Team
 #################
 
@@ -53,7 +53,7 @@ $DoImportPSSession = $false
 [string]$PSRemotingServer = "demo01"
 [string]$LogPath = "C:\_SCOworkingDir\TFS\PS-Services\SCCM - Assign Primary User to Computer"
 [string]$LogfileName = "Assign Primary User to Computer"
-[string]$CredentialStorePath = "C:\_SCOworkingDir\TFS\PS-Services\CredentialStore" #see for details: https://au2mator.com/documentation/powershell-credentials/?utm_source=github&utm_medium=social&utm_campaign=M365_NewTeamsTeam&utm_content=PS1
+[string]$CredentialStorePath = "C:\_SCOworkingDir\TFS\PS-Services\CredentialStore" #see for details: https://click.au2mator.com/PSCreds/?utm_source=github&utm_medium=social&utm_campaign=M365_NewTeamsTeam&utm_content=PS1
 
 $CMSiteCode = "A2M"
 $SiteServer = "demo01"
@@ -78,7 +78,7 @@ $SMTPSender = "SelfService@au2mator.com"
 $SMTPPort = "587"
 
 # Stored Credentials
-# See: https://au2mator.com/documentation/powershell-credentials/?utm_source=github&utm_medium=social&utm_campaign=M365_NewTeamsTeam&utm_content=PS1
+# See: https://click.au2mator.com/PSCreds/?utm_source=github&utm_medium=social&utm_campaign=M365_NewTeamsTeam&utm_content=PS1
 $SMTPCredential_method = "Stored" #Stored, Manual
 $SMTPcredential_File = "SMTPCreds.xml"
 $SMTPUser = ""
